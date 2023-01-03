@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="acwing,web,html">
+    <meta name="description" content="本课程为【AcWing工程课系列——Level-3 第一篇】《Web应用课》，讲解Web相关知识。">
+    <title>Web应用课作业</title>
+    <link rel="icon" href="/images/logo.png">
+</head>
+
+<body>
+    <form action="/login.html">
+        <label for="username">用户名</label>
+        <input type="text" name="username" id="username" required minlength="3" maxlength="15" placeholder="用户名" /><br>
+        <label for="age">年龄</label>
+        <input type="number" name="age" id="age" required placeholder="年龄" /><br>
+        <label for="email">邮箱</label>
+        <input type="email" name="email" id="email" required placeholder="邮箱" /><br>
+        <label for="password">密码</label>
+        <input type="password" name="password" id="password" required placeholder="密码" /><br>
+        <label for="resume">个人简介</label>
+        <textarea name="resume" id="resume" placeholder="个人简介"></textarea><br>
+        <label for="lang">语言</label>
+        <select name="lang" id="lang">
+            <option value="Cpp">Cpp</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+        </select><br>
+        <button type="submit">提交</button>
+    </form>
+</body>
+
+
+</html>
